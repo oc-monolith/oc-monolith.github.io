@@ -3,12 +3,21 @@
 <link rel="stylesheet" href="style.css">
 
 <html>
-  <title>Monolith</title>
+  <title>monolith</title>
   <body>
-    <h1>Monolith</h1>
-    <h4>Monolithic kernel for OpenComputers</h4>
+    <h1>monolith</h1>
+    <h4>monolithic kernel for opencomputers</h4>
+    <a href="https://github.com/oc-monolith/oc-monolith">github</a> |
+    <a href="https://oz-craft.pickardayune.com/man">documentation</a> |
+    <a href="https://raw.github.com/oc-monolith/oc-monolith/master/installer.lua">installer</a>
     <p>
-      Monolith
+      monolith is a monolithic kernel turned full-fledged operating system written in lua for the opencomputers minecraft mod.&nbsp;&nbsp;it supports cooperative mulittasking through use of lua's coroutines.
+    </p>
+    <h2>installation</h2>
+    <p>
+      the monolith installer will run on both openos and monolith.&nbsp;&nbsp;you will need a hard disk with either operating system installed--note that both disks must be writable or installation will fail.
+      <br><br>
+      in the operating system's shell, type <span class="code">wget https://raw.githubusercontent.com/oc-monolith/oc-monolith/master/installer.lua</span> and press the <span class="code">[enter]</span> key.&nbsp;&nbsp;once the file has downloaded, run <span class="code">./installer.lua</span> and follow the prompts.&nbsp;&nbsp;note that the installer will not let you install monolith to the tmpfs or the boot address, usually the currently mounted root filesystem.
     </p>
   </body>
 </html>

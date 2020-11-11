@@ -3,4 +3,23 @@
 body {
   font-family: Courier;
   font-size: 14pt;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+p {
+  padding: 10%;
+  max-width: 80%;
+  text-align: left;
+}
+
+a {
+  color: lightblue;
+  text-decoration: none;
+}
+
+.code {
+  color: white;
+  background-color: #333;
 }
