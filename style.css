@@ -19,6 +19,12 @@ a {
   text-decoration: none;
 }
 
+ul {
+  text-align: left;
+  padding-left: 30%;
+  max-width: 80%;
+}
+
 .code {
   color: white;
   background-color: #333;
